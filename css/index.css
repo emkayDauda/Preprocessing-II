@@ -176,7 +176,6 @@ body nav {
 }
 body nav a {
   margin-right: 3rem;
-  font-size: 1.5rem;
   text-decoration: none;
   color: black;
   transition: 0.1s ease-in-out;
@@ -191,6 +190,9 @@ body nav div {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+body nav div a {
+  font-size: 1.5rem;
 }
 .footer {
   width: 100%;
