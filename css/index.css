@@ -221,6 +221,12 @@ body nav div a {
 .home header {
   border-bottom: 2px dashed darkgray;
   padding-bottom: 0.5rem;
+  margin: 0 4rem;
+}
+@media (max-width: 500px) {
+  .home header {
+    margin: 0 2rem;
+  }
 }
 @media (max-width: 500px) {
   .home header {
@@ -238,6 +244,12 @@ body nav div a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 4rem;
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    margin: 0 2rem;
+  }
 }
 .home .content-section .text-content {
   width: 48%;
