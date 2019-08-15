@@ -168,6 +168,30 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+body nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 3rem 0;
+}
+body nav a {
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.1s ease-in-out;
+}
+body nav a:hover {
+  color: silver;
+  transition: 0.1s ease-in-out;
+  letter-spacing: 0.1rem;
+}
+body nav div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

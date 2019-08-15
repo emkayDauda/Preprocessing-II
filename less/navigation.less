@@ -1,1 +1,37 @@
 // Navigation Styles here
+
+.flexStuff(@flex-direction: row){
+    display: flex;
+    flex-direction: @flex-direction;
+}
+
+body{
+    nav {
+        .flexStuff();
+        align-items: baseline;
+        margin: 3rem 0;
+
+        a {
+            margin-right: 3rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: black;
+            transition: 0.1s ease-in-out;
+
+            &:hover {
+                color: silver;
+                transition: 0.1s ease-in-out;
+                letter-spacing: 0.1rem;
+            }
+        }
+
+        div{
+            // border: 1px solid black;
+            flex-grow: 1;
+            .flexStuff();
+            justify-content: flex-end;
+
+            
+        }
+    }
+}
