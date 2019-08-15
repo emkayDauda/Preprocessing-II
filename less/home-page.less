@@ -3,6 +3,16 @@
   header {
     border-bottom: 2px dashed darkgray;
     padding-bottom: 0.5rem;
+
+    @media @mobile {
+      .flexStuff(column);
+      h1 {
+        width: 90%;
+        // border: 1px solid;
+        font-size: 3rem;
+        margin: 1rem 0;
+      }
+    }
   }
 
   .content-section {
