@@ -330,4 +330,12 @@ body nav div a {
   background: #17A2B8;
   text-align: center;
   padding: 1rem 0;
+  transition: 0.3s ease-in-out;
+}
+.home .btn:hover {
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease-in-out;
+  background: gold;
+  padding: 1rem;
+  color: black;
 }

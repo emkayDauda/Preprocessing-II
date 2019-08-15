@@ -24,3 +24,15 @@
         
     }
 }
+
+.colorAnimation(@duration: 0.3s, @color: gold){
+    transition: @duration ease-in-out;
+
+				&:hover {
+					letter-spacing: 0.1rem;
+					transition: @duration ease-in-out;	
+					background: @color;
+                    padding: 1rem;
+                    color: black;
+				}
+}
