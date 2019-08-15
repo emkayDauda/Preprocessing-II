@@ -257,3 +257,11 @@ body nav div a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .btn {
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  color: white;
+  background: teal;
+  text-align: center;
+  padding: 1rem 0;
+}
