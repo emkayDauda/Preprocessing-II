@@ -172,7 +172,9 @@ body nav {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  margin: 3rem 0;
+  padding: 3rem 0;
+  width: 100%;
+  border-bottom: 2px dashed darkgray;
 }
 body nav a {
   margin-right: 3rem;
