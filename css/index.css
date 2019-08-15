@@ -196,6 +196,17 @@ body nav div {
 body nav div a {
   font-size: 1.5rem;
 }
+@media (max-width: 500px) {
+  body nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body nav a {
+    margin-top: 1rem;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

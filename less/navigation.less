@@ -25,6 +25,8 @@ body{
                 transition: 0.1s ease-in-out;
                 letter-spacing: 0.1rem;
             }
+
+            
         }
 
         div{
@@ -38,6 +40,18 @@ body{
             }
 
             
+        }
+        @media @mobile {
+            .flexStuff(column);
+            justify-content: space-between;
+            align-items: center;
+            // border: 1px solid;
+
+            a {
+                // border: 1px solid;
+                margin-top: 1rem;
+
+            }
         }
     }
 }
